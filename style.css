@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    position: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+
+.caixa-maior{
+    background-color: #000000;
+    width: 95%;
+    max-width: 420px;
+    opacity: 0.8;/* transparencia do item */
+    padding: 20px;
+    border-radius: 25px;
+
+}
+
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc( 100% - 100px);
+}
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #b3b0b02b;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e8dede2b;;
+}
+
+.caixa-media {
+  margin-top: 30px;
+}
+
+.caixa-menor{
+    display: flex;
+    align-items: center;
+}
+
+.icone {
+    margin-right: 10px;
+}
+
+h2 {
+    color: white;
+    font-size: 28px;
+}
+
+.lupa {
+   height: 20px;
+
+}
+
+.temp {
+   color: #ffffff;
+   margin: 20px 0;
+   font-size: 30px;
+}
+
+
+.descricao {
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.umidade {
+    color: #ffffff;
+    margin: 30px 0;
+    text-transform: capitalize;
+}
